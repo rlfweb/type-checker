@@ -1,0 +1,39 @@
+<!-- nav will slide across -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Type Checker</title>
+
+    <link href="/css/base.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section class="options">
+      <h1>Type Checker</h1>
+
+      <div class="option">
+        <label>Your text</label>
+        <input
+          type="text"
+          name="sentence"
+          placeholder="The quick brown fox ..."
+        />
+      </div>
+
+      <div class="option">
+        <label>Type size <span>64px</span></label>
+        <input type="range" name="typesize" min="12" max="200" value="64" />
+      </div>
+    </section>
+
+    <textarea class="output">
+The quick brown fox jumps over the lazy dog</textarea
+    >
+  </body>
+
+  <script src="js/typechecker.js"></script>
+</html>
